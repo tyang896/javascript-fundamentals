@@ -82,7 +82,7 @@ var indexQuestion = 0;
 
 //This function starts the countdown timer at 71 seconds and cuts the time by -10 if the user's choice was wrong
 function startTimer(){
-    var countDown = 71;//sets countdown timer for the quiz
+    var countDown = 71;//sets countdown timer for the quiz. Set to 71 so the screen will first show countdown from 70.
     //This for loop assigns a custom data attribute and creates an event listener for each choice button
     for(i=1; i<5; i++){
         btnList[i-1].dataset.number = i;
